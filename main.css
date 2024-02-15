@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #081b29;
+  color: #ededed;
+}
+body .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+body .header .logo {
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+}
+body .header .navbar .item {
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+}
+body .home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10%;
+}
+body .home .home-content {
+  max-width: 600px;
+}
+body .home .home-content .name {
+  font-size: 56px;
+  font-weight: 700;
+}
+body .home .home-content .job {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0;
+}
+body .home .home-content .btn-box {
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+  color: #081b29;
+  background-color: #00abf0;
+}
+body .home .home-sci {
+  position: absolute;
+  bottom: 40px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+body .home .home-sci .sm {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #00abf0;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #00abf0;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
